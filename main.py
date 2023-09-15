@@ -8,7 +8,7 @@ pygame.init()
 title_font = pygame.font.Font(None, 40)
 score_surface = title_font.render("Score", True, Colors.white)
 next_surface = title_font.render("Next", True, Colors.white)
-game_over_surface = title_font.render("GAME OVER", True, Colors.white)
+game_over_surface = title_font.render("GAME OVER !", True, Colors.white)
 
 score_rect = pygame.Rect(320, 55, 170, 60)
 next_rect = pygame.Rect(320, 215, 170, 180)
