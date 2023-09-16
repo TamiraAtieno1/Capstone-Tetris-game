@@ -2,6 +2,7 @@ import pygame,sys
 from game import Game
 from colors import Colors
 
+#  Command to run py main.py
 pygame.font.init()
 pygame.init()
 
