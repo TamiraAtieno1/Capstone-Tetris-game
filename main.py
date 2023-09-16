@@ -21,7 +21,7 @@ clock = pygame.time.Clock()
 game = Game()
 
 GAME_UPDATE = pygame.USEREVENT
-pygame.time.set_timer(GAME_UPDATE, 170)
+pygame.time.set_timer(GAME_UPDATE, 150)
 
 while True:
     for event in pygame.event.get():
@@ -48,7 +48,7 @@ while True:
     # Drawing
     score_value_surface = title_font.render(str(game.score), True, Colors.white)
 
-    screen.fill(Colors.dark_purple)
+    screen.fill(Colors.black)
     screen.blit(score_surface, (365, 20, 50, 50))
     screen.blit(next_surface, (375, 180, 50, 50))
 

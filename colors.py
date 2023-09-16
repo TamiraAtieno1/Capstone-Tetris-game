@@ -8,7 +8,7 @@ class Colors:
 	cyan = (21, 204, 209)
 	blue = (13, 64, 216)
 	white = (255, 255, 255)
-	dark_purple = (166, 0, 247)
+	black = (0, 0, 0)
 	light_blue = (59, 85, 162)
 	
 	@classmethod
